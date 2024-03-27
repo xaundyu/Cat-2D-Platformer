@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://bgbd0x1rny2r3"]
+
+[ext_resource type="Script" path="res://scene/Monika.gd" id="1_6n7mq"]
+[ext_resource type="Texture2D" uid="uid://b52c4t5exldag" path="res://Monika chibi glitch.png" id="1_yr7ct"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lpgx7"]
+size = Vector2(64, 91)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_6n7mq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(151, 271)
+scale = Vector2(0.204678, 0.204678)
+texture = ExtResource("1_yr7ct")
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(151, 271.5)
+shape = SubResource("RectangleShape2D_lpgx7")
+debug_color = Color(0.627451, 0.360784, 0.976471, 0.419608)
