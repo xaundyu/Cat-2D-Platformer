@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://da633bb8you6i"
-path="res://.godot/imported/Catvar4.png-61f4ad51bd4f770f351a22c6b2e16df5.ctex"
+path="res://.godot/imported/Catvar4.png-75ea2e8b514241d0c4959475c997aece.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Catvar4.png"
-dest_files=["res://.godot/imported/Catvar4.png-61f4ad51bd4f770f351a22c6b2e16df5.ctex"]
+source_file="res://DYU/assets/Catvar4.png"
+dest_files=["res://.godot/imported/Catvar4.png-75ea2e8b514241d0c4959475c997aece.ctex"]
 
 [params]
 

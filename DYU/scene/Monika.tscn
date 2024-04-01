@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bgbd0x1rny2r3"]
 
-[ext_resource type="Script" path="res://scene/Monika.gd" id="1_6n7mq"]
-[ext_resource type="Texture2D" uid="uid://bcr3yiftfc2wa" path="res://BaseCatModel1.png" id="2_rj1xn"]
+[ext_resource type="Script" path="res://DYU/scene/Monika.gd" id="1_6n7mq"]
+[ext_resource type="Texture2D" uid="uid://bcr3yiftfc2wa" path="res://DYU/assets/BaseCatModel1.png" id="2_rj1xn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lpgx7"]
 size = Vector2(27, 28)

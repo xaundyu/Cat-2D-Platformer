@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b52c4t5exldag"
-path="res://.godot/imported/Monika chibi glitch.png-f230d50acfbf5d51371ada9b965775d2.ctex"
+path="res://.godot/imported/Monika chibi glitch.png-57790e040e8836a737b2b19e749f64eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Monika chibi glitch.png"
-dest_files=["res://.godot/imported/Monika chibi glitch.png-f230d50acfbf5d51371ada9b965775d2.ctex"]
+source_file="res://DYU/assets/Monika chibi glitch.png"
+dest_files=["res://.godot/imported/Monika chibi glitch.png-57790e040e8836a737b2b19e749f64eb.ctex"]
 
 [params]
 
