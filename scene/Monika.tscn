@@ -1,22 +1,21 @@
 [gd_scene load_steps=4 format=3 uid="uid://bgbd0x1rny2r3"]
 
 [ext_resource type="Script" path="res://scene/Monika.gd" id="1_6n7mq"]
-[ext_resource type="Texture2D" uid="uid://da633bb8you6i" path="res://Catvar4.png" id="2_aw51u"]
+[ext_resource type="Texture2D" uid="uid://bcr3yiftfc2wa" path="res://BaseCatModel1.png" id="2_rj1xn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lpgx7"]
-size = Vector2(84, 63)
+size = Vector2(27, 28)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_6n7mq")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(185.675, 236.325)
-scale = Vector2(0.565881, 0.565881)
-texture = ExtResource("2_aw51u")
-flip_h = true
+position = Vector2(150.175, 271.825)
+scale = Vector2(0.196092, 0.196092)
+texture = ExtResource("2_rj1xn")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(186, 259.5)
+position = Vector2(150.5, 273)
 shape = SubResource("RectangleShape2D_lpgx7")
 debug_color = Color(0.627451, 0.360784, 0.976471, 0.419608)
