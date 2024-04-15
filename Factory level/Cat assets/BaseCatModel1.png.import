@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw1rgrjsabc5y"
-path="res://.godot/imported/Catvar4.png-2d866674c2a8ff93447687725ef9eb79.ctex"
+uid="uid://ds11c4kuu2pqd"
+path="res://.godot/imported/BaseCatModel1.png-fd4a88e49dfd8c797b0a22ed68b5b921.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Catvar4.png"
-dest_files=["res://.godot/imported/Catvar4.png-2d866674c2a8ff93447687725ef9eb79.ctex"]
+source_file="res://Factory level/Cat assets/BaseCatModel1.png"
+dest_files=["res://.godot/imported/BaseCatModel1.png-fd4a88e49dfd8c797b0a22ed68b5b921.ctex"]
 
 [params]
 

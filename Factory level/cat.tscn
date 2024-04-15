@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://b7n28ppyom4g"]
+
+[ext_resource type="Texture2D" uid="uid://ds11c4kuu2pqd" path="res://Factory level/Cat assets/BaseCatModel1.png" id="1_357td"]
+[ext_resource type="Script" path="res://Factory level/cat.gd" id="1_vv1ix"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_negvg"]
+size = Vector2(38.5, 34)
+
+[node name="CAT" type="CharacterBody2D"]
+script = ExtResource("1_vv1ix")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(43, 593.3)
+scale = Vector2(0.291667, 0.2625)
+texture = ExtResource("1_357td")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(43.75, 594)
+shape = SubResource("RectangleShape2D_negvg")
